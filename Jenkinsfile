@@ -1,7 +1,7 @@
 pipeline {
   environment {
     imagename = "flaskapp"
-    registryCredential = 'swethatanamala'
+    registryCredential = 'dockerhub'
     dockerImage = ''
   }
   agent any
